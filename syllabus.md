@@ -6,16 +6,17 @@ This course will introduce you Android application development using Android Stu
 
 * Coordinator: Cholwich Nattee
 * Instructors 
-  * Kobkrit Viriyayudhakorn (section 1)
-  * Piya Limcharoen (section 2, 3)
+ * Kobkrit Viriyayudhakorn (section 1)
+ * Piya Limcharoen (section 2, 3)
 * TAs
-  * Athiwat
-  * Ketchart
+ * Athiwat Cheewakidakarn
+ * Ketchart Kaewplee
+ * Nuttapon Sanyawong
 
 ## Schedule
 
 Lab | Section 1 | Section 2 | Section 3 | Topic
-----|-----------|-----------|-----------|------
+---:|-----------|-----------|-----------|------
 1 | 2015-01-19 | 2015-01-21 | 2015-01-23 | Introduction to Android Application Development
 2 | 2015-01-26 | 2015-01-28 | 2015-01-30 | Event Handling
 3 | 2015-02-02 | 2015-02-04 | 2015-02-06 | 
