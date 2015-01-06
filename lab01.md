@@ -51,7 +51,7 @@ We need an Android device or a virtual Android device to test our application.
 2. Select the virtual device or device to run the application and click OK.
 3. Wait until the application starts working.
 
-![Running App ](https://raw.githubusercontent.com/its333y2014/manual/master/figures/01run.png)
+<img src="https://raw.githubusercontent.com/its333y2014/manual/master/figures/01run.png" width="33%" alt="Running App" />
 
 ## Activity
 
