@@ -122,12 +122,48 @@ Here is the source code of the ``activity_main.xml`` layout created with the pro
   @string/hello_world = a string constant defined in res/values/strings.xml
   android:layout_width = the width of the TextView
   android:layout_height = the height of the TextView
-  wrap_content = fit with the content of view
+  wrap_content = fit with the size of the string content
   -->
 
-  </RelativeLayout>
-  ```
+</RelativeLayout>
+```
 
-  Android Studio provides a GUI to modify the layout without editing the XML source code.
+Android Studio provides a GUI to modify the layout without editing the XML source code.
 
-## Event Handling
+## Handling Button Clicks
+
+``Button`` is one of the most common views used to make the activity start working.
+
+This is an example to change from *"Hello world!"* to *"The Button is clicked!"* when the user clicks the button.
+
+0. Open ``activity_main.xml`` to add a button. Here, we use the **Design** view of the layout.
+
+1. Drag ``Button`` from the **Palette** pane on the left side. Then, set the ``layout:width`` property in the **Properties** pane to ``match_parent``.
+![Adding a Button ](https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event01.png)
+
+2. Set the **ID** property to ``ClickMeButton``. This ID is necessary to refer to the button from the Java class.
+
+3. Set the **Text** property to ``Click Me``. This changes the button label.
+
+4. Open ``MainActivity.java`` to edit the Java class.
+
+5. Make the ``MainActivity`` class implement ``View.OnClickListener`` interface by changing from
+```java
+public class MainActivity extends Activity
+```
+to
+```java
+public class MainActivity extends Activity implements View.OnClickListener
+```
+This results in a **Syntax Error** since we need to provide the ``onClick`` method.
+
+6. We can add this ``onClick`` method by placing the cursor at your preferred position, and selecting **Code** > **Implement Methods...** menu. A dialog box will be displayed. Select ``onClick`` method and click OK.<br>
+<img src="https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event02.png" width="40%" alt="Implement Methods" />
+
+7. The ``onClick`` method without the body is added to the class.
+```java
+@Override
+public void onClick(View v) {
+
+}
+```
