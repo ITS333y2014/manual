@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
 
 A layout is a collection of UI components (or Views) for interacting with the user. It is written in XML format.
 
-Here is the source code of the ``activity_main.xml`` layout created with the project.
+Here is the source code of the ``activity_main.xml`` layout created with the project. More explanations can be found in the comments.
 
 ```xml
 <RelativeLayout
@@ -141,29 +141,24 @@ This is an example to change from *"Hello world!"* to *"The Button is clicked!"*
 1. Drag ``Button`` from the **Palette** pane on the left side. Then, set the ``layout:width`` property in the **Properties** pane to ``match_parent``.
 ![Adding a Button ](https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event01.png)
 
-2. Set the **ID** property to ``ClickMeButton``. This ID is necessary to refer to the button from the Java class.
+2. Set the ``onClick`` property to ``buttonClicked``. This is the name of the method in ``MainActivity`` called when the button is clicked.
 
-3. Set the **Text** property to ``Click Me``. This changes the button label.
-
-4. Open ``MainActivity.java`` to edit the Java class.
-
-5. Make the ``MainActivity`` class implement ``View.OnClickListener`` interface by changing from
+3. Open ``MainActivity.java`` and add the ``buttonClicked`` method. This method refers to ``TextView`` class. We need to import ``android.widget.TextView`` into the ``MainActivity`` class.
 ```java
-public class MainActivity extends Activity
-```
-to
-```java
-public class MainActivity extends Activity implements View.OnClickListener
-```
-This results in a **Syntax Error** since we need to provide the ``onClick`` method.
-
-6. We can add this ``onClick`` method by placing the cursor at your preferred position, and selecting **Code** > **Implement Methods...** menu. A dialog box will be displayed. Select ``onClick`` method and click OK.<br>
-<img src="https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event02.png" width="40%" alt="Implement Methods" />
-
-7. The ``onClick`` method without the body is added to the class.
-```java
-@Override
-public void onClick(View v) {
-
+public void buttonClicked(View v) {
+  TextView t = (TextView)findViewById(R.id.textView);
+  t.setText("The button is clicked!");
 }
 ```
+
+4. We can run the application.
+
+### findViewById
+
+Each UI component in Android can be called a view. The ``findViewById`` method is used to obtain the reference to a view specified by an id.
+
+For example, ``findViewById(R.id.textView)`` returns a reference to the TextView object in the layout.
+
+The id of a view can be retrieved and set in the **Properties** pane of the layout designer.
+
+An id is automatically assigned when we add more than one view into the layout.
