@@ -5,9 +5,8 @@ This course will introduce you Android application development using Android Stu
 ## Instructors
 
 * Coordinator: Cholwich Nattee
-* Instructors 
- * Kobkrit Viriyayudhakorn (section 1)
- * Piya Limcharoen (section 2, 3)
+* Instructors
+ * Piya Limcharoen
 * TAs
  * Athiwat Cheewakidakarn
  * Ketchart Kaewplee
@@ -15,7 +14,7 @@ This course will introduce you Android application development using Android Stu
 
 Section | Time | Instructor | TA | TA | TA
 :------:|------|------------|----|----|----
-1 | Monday; 13:00-16:00 | Kobkrit | Piya | Nuttapon | Athiwat
+1 | Monday; 13:00-16:00 | Piya | Nuttapon | Athiwat
 2 | Wednesday; 9:00-12:00 | Piya | Nuttapon | Ketchart |
 3 | Friday; 13:00-16:00 | Piya | Athiwat | Ketchart
 

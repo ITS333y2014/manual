@@ -189,7 +189,7 @@ The id of a view can be retrieved and set in the **Properties** pane of the layo
 
 4. Complete the `MainActivity` class to make the application work as a temperature converter.
 
-<img src="https://raw.githubusercontent.com/its333y2014/manual/master/figures/01exercise201.png" width="33%" alt="Temperature Converter" />
+<center><img src="https://raw.githubusercontent.com/its333y2014/manual/master/figures/01exercise201.png" width="33%" alt="Temperature Converter" /></center>
 
 **Hints**
 
@@ -202,5 +202,16 @@ The id of a view can be retrieved and set in the **Properties** pane of the layo
   ```
 
 - Use `Double.parseDouble(s)` to convert a string `s` to a double value.
+
+- To get the selected radio button, we need to refer to the `RadioGroup` and call `getCheckedRadioButtonId()` to obtain the ID of the selected button. For example,
+
+  ```java
+  RadioGroup rgFrom = (RadioGroup)findViewById(R.id.rgFrom);
+  int selFrom = rgFrom.getCheckedRadioButtonId();
+
+  if (selForm == R.id.rbFrmC) { //The user wants to convert from Celsius.
+    ...
+  }
+  ```
 
 - Refer to http://en.wikipedia.org/wiki/Conversion_of_units_of_temperature for the conversion between temperature units.
