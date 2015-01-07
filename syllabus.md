@@ -22,7 +22,7 @@ Section | Time | Instructor | TA | TA | TA
 
 Lab | Section 1 | Section 2 | Section 3 | Topic
 ---:|-----------|-----------|-----------|------
-1 | 2015-01-19 | 2015-01-21 | 2015-01-23 | Introduction to Android Application Development<br>Exercise: Basic calculator
+1 | 2015-01-19 | 2015-01-21 | 2015-01-23 | Introduction to Android Application Development<br>Exercise: Temperature converter
 2 | 2015-01-26 | 2015-01-28 | 2015-01-30 | Basic Event Handling<br>Exercise: Calculator
 3 | 2015-02-02 | 2015-02-04 | 2015-02-06 | User Interface and Saving Data<br>Exercise: ToDo List 1
 4 | 2015-02-09 | 2015-02-11 | 2015-02-13 | Multiple Activities and ListView<br>Exercise: ToDo List 2
