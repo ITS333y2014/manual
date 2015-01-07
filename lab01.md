@@ -142,6 +142,7 @@ This is an example to change from *"Hello world!"* to *"The Button is clicked!"*
 ![Adding a Button ](https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event01.png)
 
 2. Set the ``onClick`` property to ``buttonClicked``. This is the name of the method in ``MainActivity`` called when the button is clicked.
+![buttonClicked method ](https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event03.png)
 
 3. Open ``MainActivity.java`` and add the ``buttonClicked`` method. This method refers to ``TextView`` class. We need to import ``android.widget.TextView`` into the ``MainActivity`` class.
 
@@ -160,6 +161,46 @@ Each UI component in Android can be called a view. The ``findViewById`` method i
 
 For example, ``findViewById(R.id.textView)`` returns a reference to the TextView object in the layout.
 
-The id of a view can be retrieved and set in the **Properties** pane of the layout designer.
+The id of a view can be retrieved and set in the **Properties** pane of the layout designer. However, it may automatically be assigned when we add more than one view into the layout.
 
-An id is automatically assigned when we add more than one view into the layout.
+## Exercise 1
+
+1. Add an additional `TextView` into the layout, set its ID to `counterView`, and set its initial text to `0`.
+
+2. Add an additional `Button` into the layout, and set its text to `Increase`.
+
+3. Add an additional `Button` into the layout, and set its text to `Decrease`.
+
+4. Modify the `MainActivity` class to make the value shown by `counterView` be increased by 1 when the user clicks on the `Increase` button, and the value be decreased by 1 when the user clicks on the `Decrease` button.
+
+**Hints**
+
+- We can define a variable as a member of the `MainActivity` class to keep the counter value.
+
+- Use `Integer.toString(i)` to convert an integer value to a strong when `i` is an integer variable.
+
+## Exercise 2
+
+1. Log into http://github.com.
+
+2. Fork the project for this exercise at https://github.com/its333y2014/Lab1Exercise2.
+
+3. Clone the fork project to the local machine.
+
+4. Complete the `MainActivity` class to make the application work as a temperature converter.
+
+<img src="https://raw.githubusercontent.com/its333y2014/manual/master/figures/01exercise201.png" width="33%" alt="Temperature Converter" />
+
+**Hints**
+
+- Check `res/layouts/activity_main.xml` for the IDs of `TextView` and `EditText`.
+
+- Use the following snippet to get the input string from an `EditText`
+  ```java
+  EditText etInput = (EditText)findViewById(R.id.etInput);
+  String s = etInput.getText().toString();
+  ```
+
+- Use `Double.parseDouble(s)` to convert a string `s` to a double value.
+
+- Refer to http://en.wikipedia.org/wiki/Conversion_of_units_of_temperature for the conversion between temperature units.
