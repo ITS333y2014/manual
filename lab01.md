@@ -144,12 +144,13 @@ This is an example to change from *"Hello world!"* to *"The Button is clicked!"*
 2. Set the ``onClick`` property to ``buttonClicked``. This is the name of the method in ``MainActivity`` called when the button is clicked.
 
 3. Open ``MainActivity.java`` and add the ``buttonClicked`` method. This method refers to ``TextView`` class. We need to import ``android.widget.TextView`` into the ``MainActivity`` class.
-```java
-public void buttonClicked(View v) {
-  TextView t = (TextView)findViewById(R.id.textView);
-  t.setText("The button is clicked!");
-}
-```
+
+  ```java
+  public void buttonClicked(View v) {
+    TextView t = (TextView)findViewById(R.id.textView);
+    t.setText("The button is clicked!");
+  }
+  ```
 
 4. We can run the application.
 
