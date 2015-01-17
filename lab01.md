@@ -181,11 +181,11 @@ The id of a view can be retrieved and set in the **Properties** pane of the layo
 
 ## Exercise 2
 
-1. Log into http://github.com.
+1. Log into http://github.com. You need to sign up for an account on GitHub before you can do this exercise.
 
 2. Fork the project for this exercise at https://github.com/its333y2014/Lab1Exercise2.
 
-3. Clone the fork project to the local machine.
+3. Clone the fork project to the local machine. This can be done by selecting **VCS** > **Checkout from Version Control** > **GitHub**.
 
 4. Complete the `MainActivity` class to make the application work as a temperature converter.
 
