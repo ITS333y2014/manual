@@ -216,4 +216,12 @@ The id of a view can be retrieved and set in the **Properties** pane of the layo
   }
   ```
 
+- We have two radiogroups in the layout i.e. `rgFrom` and `rgTo`.
+
 - Refer to http://en.wikipedia.org/wiki/Conversion_of_units_of_temperature for the conversion between temperature units.
+
+- After finished this exercise, we can upload the source files to GitHub by
+  - Select **VCS** > **Git** > **Commit**
+  - Write a message for this commit
+  - Click **Commit and Push** to commit the changes and push them to GitHub
+  - Click **Push** again to push.
