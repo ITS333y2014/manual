@@ -155,6 +155,8 @@ This is an example to change from *"Hello world!"* to *"The Button is clicked!"*
 
 4. We can run the application.
 
+![Event Handling](https://raw.githubusercontent.com/its333y2014/manual/master/figures/01event_handling.png)
+
 ### findViewById
 
 Each UI component in Android can be called a view. The ``findViewById`` method is used to obtain the reference to a view specified by an id.
