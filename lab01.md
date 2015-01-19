@@ -10,7 +10,7 @@ Here are the steps to create a project in **Android Studio** for developing an A
 2. Set the Application name, Company Domain, and Project location.
 ![Set app name](https://raw.githubusercontent.com/its333y2014/manual/master/figures/0102.png)
 
-3. Select the form factor, and the minimum Android SDK version.
+3. Select the form factor, and the minimum Android SDK version. Set the minimum SDK to **API 19: Android 4.4 (Kitkat)**.
 ![Set SDK version](https://raw.githubusercontent.com/its333y2014/manual/master/figures/0103.png)
 
 4. Select the type of activity to be created with the project.
