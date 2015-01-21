@@ -12,10 +12,10 @@ This course will introduce you Android application development using Android Stu
  * Ketchart Kaewplee
  * Nuttapon Sanyawong
 
-Section | Time | Instructor | TA | TA | TA
-:------:|------|------------|----|----|----
+Section | Time | Instructor | TA | TA 
+:------:|------|------------|----|----
 1 | Monday; 13:00-16:00 | Piya | Nuttapon | Athiwat
-2 | Wednesday; 9:00-12:00 | Piya | Nuttapon | Ketchart |
+2 | Wednesday; 9:00-12:00 | Piya | Nuttapon | Ketchart
 3 | Friday; 13:00-16:00 | Piya | Athiwat | Ketchart
 
 ## Schedule
@@ -48,7 +48,7 @@ Final Examination | 24% | Open-book examination
 ## Rules and Regulations
 
 1. You need to form a group of up to two members to work on all the exercises and projects. The group members cannot be changed without the permission from the course coordinator.
-2. You may not be allowed to take the final examination if you receive less than 70% of the exercise score (according to TU regulation).
+2. You will not be allowed to take the final examination and fail this course, if you receive less than 70% of the exercise score (according to TU regulation). Therefore, you will automatically receive an 'F' if you miss more than 3 labs without any prior notification.
 3. You must attend your own section, unless you get the permission from the course coordinator.
 4. Be on time since all the instructions will be given within the first hour.
 
