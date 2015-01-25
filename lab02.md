@@ -127,6 +127,8 @@ The following figure shows how the toast is displayed.
 
 Complete the provided **Calculator** application project to make it work similar to the calculator application on Nexus 4. This calculator app supports only *integer calculator*.
 
+To do this exercise, we need to fork and clone https://github.com/its333y2014/Lab2Exercise1.git
+
 Here are the detailed information related to the application and the features that we need to implement:
 
 1. The main layout composes of two textviews i.e. `tvExpr` and `tvAns`.
