@@ -173,7 +173,7 @@ Here are the detailed information related to the application and the features th
 
   - `M+` is for adding the current result to the memory.
   - `M-` is for subtracting the current result from the memory.
-  - `MR` is for appending the value of the memory to `expr`.
+  - `MR` is for displaying the value of the memory to `tvAns` and `tvExpr`.
   - `MC` is for setting the value of the memory to `0`.
 
   We need to display a toast to show the result of these memory operations.
