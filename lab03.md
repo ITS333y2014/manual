@@ -109,8 +109,10 @@ Fork and clone the exercise repository at https://github.com/its333y2014/Lab3Exe
 
 Complete the Android application project to make it a GPA calculator.
 
-- When the user clicks on `Add Course` button, the `CourseActivity` is created and started. This activity allows the user to input the credit and grade for a new course.
+- When the user clicks on `Add Course` button, the `CourseActivity` is created and started. This activity allows the user to input course code, credit and grade for a new course.
 
 - The values are then sent back to the `MainActivity` and used for calculating the GPA.
+
+- When the user clicks on `Show Course List`, the `CourseListActivity` is created and displays the list of courses in TextView named `tvList`.
 
 - When the user clicks on `Reset` button, all the accumulated values are reset to 0.
