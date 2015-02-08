@@ -24,8 +24,7 @@ Lab | Section 1 | Section 2 | Section 3 | Topic
 ---:|-----------|-----------|-----------|------
 1 | 2015-01-19 | 2015-01-21 | 2015-01-23 | Introduction to Android Application Development<br>Exercise: Temperature converter
 2 | 2015-01-26 | 2015-01-28 | 2015-01-30 | Basic Event Handling<br>Exercise: Calculator
-3 | 2015-02-02 | 2015-02-04 | 2015-02-06 | Multiple Activities<br>Exercise: GPA
-Calculator
+3 | 2015-02-02 | 2015-02-04 | 2015-02-06 | Multiple Activities<br>Exercise: GPA Calculator
 4 | 2015-02-09 | 2015-02-11 | 2015-02-13 | ListView<br>Exercise: ToDo List 1
 5 | 2015-02-16 | 2015-02-18 | 2015-02-20 | ListView and SQL Database<br>Exercise: ToDo List 2
 6 | 2015-02-23 | 2015-02-25 | 2015-02-27 | Project 1
