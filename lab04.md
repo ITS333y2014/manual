@@ -219,7 +219,7 @@ To update the listview after deleting a record, we create a new cursor and use `
 
 Modify the GPA Calculator app developed last week to use an SQLite database to keep course data, and use `ListView` to display a list of courses. Here are the list of things to be done:
 
-1. Fork and clone [...]. The initial project has implemented a number of features, e.g.
+1. Fork and clone https://github.com/its333y2014/Lab4Exercise1. The initial project has implemented a number of features, e.g.
 
   - start `AddCourseActivitiy` and `ListCourseActivity` when their corresponding buttons are clicked,
 
