@@ -233,7 +233,8 @@ Modify the GPA Calculator app developed last week to use an SQLite database to k
 
   **Explanation:** The `onResume` is called every time the activity is returned from the background mode to the foreground mode. It is called after `onActivityResult`. Therefore, we can insert a new record in the `onActivityResult` method, and make the GPA update by `onResume` method.
 
-4. Implement `ListActivity` to make it display the list of courses. Use `android.R.simple_list_item2` as the layout of each item in the listview by making `text1` display the course code, and `text2` display the credit and grade.
+4. Implement `ListCourseActivity` to make it display the list of courses. Use
+`android.R.simple_list_item_2` as the layout of each item in the listview by making `text1` display the course code, and `text2` display the credit and grade.
 
   **Hint:** we can use `||` to concatenate two strings in SELECT statement. For example, `SELECT _id, code, (grade || ' ' || credit) g FROM course;` returns 3 columns i.e. `_id`, `code`, and `g` which a concatenation between `grade` and `credit` with a space in between.
 
