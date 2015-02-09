@@ -217,6 +217,24 @@ To update the listview after deleting a record, we create a new cursor and use `
 
 ## Exercise
 
+Modify the GPA Calculator app developed last week to use an SQLite database to keep course data, and use `ListView` to display a list of courses. Here are the list of things to be done:
 
+1. Fork and clone [...]. The initial project has implemented a number of features, e.g.
 
-1.
+  - start `AddCourseActivitiy` and `ListCourseActivity` when their corresponding buttons are clicked,
+
+  - send the input values backs from `AddCourseActivitiy`,
+
+  - provide `CourseDBHelper` as a database helper for the course database.
+
+2. Implement `MainActivity.onActivityResult` to insert the input values as a new record in the *course* table.
+
+3. Implement `MainActivity.onResume` to calculate and display the GPA. We can use `SUM` function of SQL to conduct the calculation. Use `String.format("%.2f", x)` to convert a double value `x` to string with 2 digits after the decimal point.
+
+  **Explanation:** The `onResume` is called every time the activity is returned from the background mode to the foreground mode. It is called after `onActivityResult`. Therefore, we can insert a new record in the `onActivityResult` method, and make the GPA update by `onResume` method.
+
+4. Implement `ListActivity` to make it display the list of courses. Use `android.R.simple_list_item2` as the layout of each item in the listview by making `text1` display the course code, and `text2` display the credit and grade.
+
+  **Hint:** we can use `||` to concatenate two strings in SELECT statement. For example, `SELECT _id, code, (grade || ' ' || credit) g FROM course;` returns 3 columns i.e. `_id`, `code`, and `g` which a concatenation between `grade` and `credit` with a space in between.
+
+5. Implement `OnItemLongClickListener` in `ListCourseActivity` to allow the user to delete a course by long-clicking on it.
