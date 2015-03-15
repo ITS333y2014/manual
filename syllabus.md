@@ -30,8 +30,8 @@ Lab | Section 1 | Section 2 | Section 3 | Topic
 6 | 2015-02-23 | 2015-02-25 | 2015-02-27 | Project 1
   | 2015-03-02 | 2015-03-04 | 2015-03-06 | **NO LAB** (Midterm Exam Week)
   | 2015-03-09 | 2015-03-11 | 2015-03-13 | **NO LAB** (Midterm Exam Week)
-7 | 2015-03-16 | 2015-03-18 | 2015-03-20 | Notification<br>Exercise: TBA
-8 | 2015-03-23 | 2015-03-25 | 2015-03-27 | HTTP Connection<br>Exercise: TBA
+7 | 2015-03-16 | 2015-03-18 | 2015-03-20 | AsyncTask and HttpURLConnection<br>Exercise: Weather
+8 | 2015-03-23 | 2015-03-25 | 2015-03-27 | HttpURLConnection and Notification<br>Exercise: TBA
 9 | 2015-03-30 | 2015-04-01 | 2015-04-03 | Sensors and Locations<br>Exercise: TBA
   | 2015-04-06 | 2015-04-08 | 2015-04-10 | **NO LAB** (Chakri Day)
   | 2015-04-13 | 2015-04-15 | 2015-04-17 | **NO LAB** (Songkran Days)
