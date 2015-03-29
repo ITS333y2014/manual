@@ -32,10 +32,10 @@ Lab | Section 1 | Section 2 | Section 3 | Topic
   | 2015-03-09 | 2015-03-11 | 2015-03-13 | **NO LAB** (Midterm Exam Week)
 7 | 2015-03-16 | 2015-03-18 | 2015-03-20 | AsyncTask and HttpURLConnection<br>Exercise: Weather
 8 | 2015-03-23 | 2015-03-25 | 2015-03-27 | HttpURLConnection II, Handler, and Menu<br>Exercise: Microblogging
-9 | 2015-03-30 | 2015-04-01 | 2015-04-03 | Sensors and Locations<br>Exercise: TBA
+9 | 2015-03-30 | 2015-04-01 | 2015-04-03 | Google Maps<br>Exercise: User Tracker
   | 2015-04-06 | 2015-04-08 | 2015-04-10 | **NO LAB** (Chakri Day)
   | 2015-04-13 | 2015-04-15 | 2015-04-17 | **NO LAB** (Songkran Days)
-10| 2015-04-20 | 2015-04-22 | 2015-04-24 | Google Maps<br>Exercise: TBA
+10| 2015-04-20 | 2015-04-22 | 2015-04-24 | TBA
 11| 2015-04-27 | 2015-04-29 | 2015-05-01 | Project 2
 
 ## Evaluation
